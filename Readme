@@ -1,0 +1,3 @@
+This project is spring boot with MongoDB and MySQL example.To run this application,you should have Spring, mySQL and MongoDB preinstalled.
+Open Application.properties file and change the username and password of SQL to your own local MYSQL database password.Connect the MongoDB on local host port 27017
+Build the application and run.
