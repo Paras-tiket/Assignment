@@ -1,3 +1,29 @@
 This project is spring boot with MongoDB and MySQL example.To run this application,you should have Spring, mySQL and MongoDB preinstalled.
 Open Application.properties file and change the username and password of SQL to your own local MYSQL database password.Connect the MongoDB on local host port 27017
 Build the application and run.
+The Application will run on port 8080.
+The Dependencies added in the spring initializer are:
+Spring web
+Spring data JPA
+MySQL Driver
+Spring data MongoDB
+Spring boot devTools
+Use postman to get,post,put and delete.
+Use the example given below to get,post,put,delete.
+{
+    "firstName":"JOHN",
+    "lastName":"WICK 2",
+    "email":"JOHN@WICK@gmail.com",
+    "courses":[
+        {
+            "name":"JAVA SPRING",
+            "description":"spring course",
+            "email":"JOHNWICK@gmail.com"
+        },
+        {
+            "name":"C++",
+            "description":"C++ Programming Course ",
+            "email":"JOHNWICK@gmail.com"
+        }
+    ]
+}
